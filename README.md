@@ -26,9 +26,26 @@ pip install pandas numpy matplotlib seaborn missingno
 
 ## Visualizations
 - Missingness overview using `missingno.bar` to confirm completeness of all columns.
+  
+  <img width="2054" height="1064" alt="image" src="https://github.com/user-attachments/assets/f8e12591-2b68-4fc0-b534-5c5754cba756" />
+
 - Class distribution with `seaborn.countplot` of `diagnosis`.
+  
+- <img width="571" height="453" alt="image" src="https://github.com/user-attachments/assets/922a84f9-a972-4d9c-bde4-cc1956d00f76" />
+
 - Kernel Density Estimation (KDE) plots of all features to assess distribution shapes and scale.
+  
+  <img width="1989" height="1490" alt="image" src="https://github.com/user-attachments/assets/f35fee57-f385-4f2a-b932-eaa3c78937ff" />
+
+
 - Correlation heatmap (upper triangle masked) to visualize multicollinearity patterns across features.
+  
+  <img width="1607" height="1123" alt="image" src="https://github.com/user-attachments/assets/7c018616-1458-4856-aed8-e33ec3daba1c" />
+  
+-Outliers using boxplot 
+
+<img width="1981" height="1490" alt="image" src="https://github.com/user-attachments/assets/81f64d93-811a-4181-87cb-cba1bffd397f" />
+
 
 ## Key Findings
 - No missing values detected in any column.
