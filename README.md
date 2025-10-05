@@ -31,20 +31,19 @@ pip install pandas numpy matplotlib seaborn missingno
 
 - Class distribution with `seaborn.countplot` of `diagnosis`.
   
-- <img width="571" height="453" alt="image" src="https://github.com/user-attachments/assets/922a84f9-a972-4d9c-bde4-cc1956d00f76" />
+  <img width="571" height="453" alt="image" src="https://github.com/user-attachments/assets/922a84f9-a972-4d9c-bde4-cc1956d00f76" />
 
 - Kernel Density Estimation (KDE) plots of all features to assess distribution shapes and scale.
   
   <img width="1989" height="1490" alt="image" src="https://github.com/user-attachments/assets/f35fee57-f385-4f2a-b932-eaa3c78937ff" />
 
-
 - Correlation heatmap (upper triangle masked) to visualize multicollinearity patterns across features.
   
   <img width="1607" height="1123" alt="image" src="https://github.com/user-attachments/assets/7c018616-1458-4856-aed8-e33ec3daba1c" />
   
--Outliers using boxplot 
-
-<img width="1981" height="1490" alt="image" src="https://github.com/user-attachments/assets/81f64d93-811a-4181-87cb-cba1bffd397f" />
+- Outliers overview using boxplots across features.
+  
+  <img width="1981" height="1490" alt="image" src="https://github.com/user-attachments/assets/81f64d93-811a-4181-87cb-cba1bffd397f" />
 
 
 ## Key Findings
@@ -72,4 +71,4 @@ pip install pandas numpy matplotlib seaborn missingno
 - Perform cross-validation and compare metrics (accuracy, precision, recall, ROC-AUC).
 
 ## Source 
-got this data from kaggle (Breast Cancer Dataset)
+Kaggle: [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
